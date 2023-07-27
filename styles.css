@@ -32,15 +32,22 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 8px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 .header-links {
-    display: flex;
+    /*display: flex;*/
 }
 
-.hero-bottom {
+.header-bottom {
     display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-main {
@@ -51,6 +58,7 @@ a {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 8px;
 }
 
 button {
@@ -59,8 +67,11 @@ button {
     background: #3882F6;
     color: white;
     padding: 8px 24px;
+    max-width: 100px;
 }
 
 .image-placeholder {
     background-color: antiquewhite;
+    max-width: 200px;
+    padding: 10px 100px;
 }
