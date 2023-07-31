@@ -76,6 +76,7 @@ button {
     background-color: antiquewhite;
     max-width: 200px;
     padding: 10px 100px;
+    margin-left: 20px;
 }
 
 .information {
