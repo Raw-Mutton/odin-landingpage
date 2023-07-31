@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -36,9 +36,9 @@ a {
     /*margin-bottom: 50px;*/
 }
 
-.header-links {
-    /*display: flex;*/
-}
+/*.header-links {
+    display: flex;
+}*/
 
 .header-bottom {
     display: flex;
@@ -83,6 +83,7 @@ button {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
+    margin-top: 36px;
     margin-bottom: 36px;
 }
 
@@ -90,6 +91,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 36px;
+    margin-bottom: 36px;
 }
 
 .box-text {
@@ -109,4 +111,21 @@ button {
     border: 3px solid #3882F6;
     border-radius: 8px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    font-weight: 800;
+    text-align: end;
 }
