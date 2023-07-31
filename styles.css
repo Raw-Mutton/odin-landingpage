@@ -12,6 +12,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 ul {
@@ -53,6 +54,7 @@ a {
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-secondary {
@@ -74,4 +76,37 @@ button {
     background-color: antiquewhite;
     max-width: 200px;
     padding: 10px 100px;
+}
+
+.information {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+}
+
+.box-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    text-align: center;
 }
