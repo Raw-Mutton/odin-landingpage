@@ -74,12 +74,14 @@ button {
 }
 
 .image-placeholder {
-    background-color: antiquewhite;
+    display: flex;
+    background-color: white;
     max-width: 200px;
     height: 100px;
     padding: 10px 100px;
     margin-left: 20px;
     margin-top: 10px;
+    align-items: center;
 }
 
 .information {
