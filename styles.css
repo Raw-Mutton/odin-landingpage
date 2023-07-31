@@ -93,6 +93,7 @@ button {
     justify-content: center;
     gap: 36px;
     margin-bottom: 36px;
+    flex: 1;
 }
 
 .box-text {
@@ -117,6 +118,7 @@ button {
 .quote-section {
     background-color: #E5E7EB;
     padding: 50px;
+    flex: 1;
 }
 
 .quote-text {
