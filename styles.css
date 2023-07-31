@@ -44,6 +44,7 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .hero-left {
@@ -77,6 +78,7 @@ button {
     max-width: 200px;
     padding: 10px 100px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .information {
@@ -93,7 +95,7 @@ button {
     justify-content: center;
     gap: 36px;
     margin-bottom: 36px;
-    flex: 1;
+    flex-wrap: wrap;
 }
 
 .box-text {
@@ -140,6 +142,7 @@ button {
     display: flex;
     justify-content: space-around;
     border-radius: 5px;
+    align-items: center;
 }
 
 .cta-title {
